@@ -30,7 +30,7 @@ MINIMUM_SUPPORTED_AZURE_OPENAI_PREVIEW_API_VERSION="2024-02-15-preview"
 # UI configuration (optional)
 UI_TITLE = "Noah Arkindo AI"
 UI_LOGO = os.environ.get("UI_LOGO")
-UI_CHAT_LOGO = "~/frontend/src/assets/NoahLogo.svg"
+UI_CHAT_LOGO =  os.environ.get("UI_LOGO")
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start Chat With AI"
 UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "This Noah AI is configured to explain about Noah Product"
 UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
