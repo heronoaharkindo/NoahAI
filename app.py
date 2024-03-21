@@ -32,7 +32,7 @@ UI_TITLE = "Noah Arkindo AI"
 UI_LOGO = os.environ.get("UI_LOGO")
 UI_CHAT_LOGO =  os.environ.get("UI_LOGO")
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "Start Chat With AI"
-UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "This Noah AI is configured to explain about Noah Product"
+UI_CHAT_DESCRIPTION = os.environ.get("UI_LOGO")
 UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
 UI_SHOW_SHARE_BUTTON = os.environ.get("UI_SHOW_SHARE_BUTTON", "true").lower() == "true"
 
